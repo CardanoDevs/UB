@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Alienwars wmr6';
+  src: local('Alienwars wmr6'), url('./AlienWars-wMR6.ttf') format('truetype');
+}

@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  background-color: black;  
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Alienwars wmr6' !important;
+}
+
+button {
+  font-family: 'Alienwars wmr6' !important;
 }
 
 .App-logo {
@@ -14,7 +22,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -34,5 +42,48 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.mintBtn {
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+  left: 50%;
+  top: 50%;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: white;
+  font-size: 40px;
+  line-height: 90%;
+  font-weight: 900;
+}
+
+.mintBtn:hover {
+  background-color: red;
+  color: white;
+}
+
+.description {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  line-height: 90%;
+  font-weight: 900;
+  left: 20px;
+  bottom: 20px;
+}
+
+.notification-container {
+  width: 600px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .notification-container {
+      width: 80%;
+      font-size: 15px;
   }
 }
